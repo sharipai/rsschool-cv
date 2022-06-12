@@ -1,3 +1,105 @@
+.wrapper {
+
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 1000px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;    
+}
+
+
+/* header block*/
+
+.header {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 100px;
+    align-items:center;
+    margin-bottom: 50px;
+
+}
+
+.header-address {
+    padding-left: 29px;
+    align-items:center;
+    padding-bottom: 20px;
+
+
+}
+
+.header-left {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+
+
+}
+
+.gps {
+    width: 24px;
+    height: 31px;
+    padding-right: 30px;
+}
+
+.header-right {
+    display: flex;
+    justify-content: space-around;
+
+    
+
+}
+.header-phone {
+   
+    
+}
+
+.header-email {
+    padding-left: 60px;
+ 
+}
+
+
+.header-web {
+    padding-left: 90px;
+}
+
+/* main block*/
+
 .main {
-    background: aqua;
+    margin-top: 68px    ;
+    display: flex;
+    width: 500px;
+    height: 500px;
+}
+
+.main-bio {
+    display: flex;
+    margin-left: 75px;
+
+}
+
+.name {
+font-size: 45px;
+
+}
+.surname {
+    font-weight: bold;
+    font-size: 65px;
+    margin-bottom: 100px;
+ 
+
+
+}
+
+.photo {
+    width: 100%;
+    height: 100%;
+    
+    object-fit: cover;
+
+}
+
+.bio {
+    margin-left: 62px;
 }
