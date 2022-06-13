@@ -12,7 +12,7 @@
 /* header block*/
 
 .img {
-    background: url('/img/me.jpg') -180px;
+    background: url('../img/me.jpg') -180px;
     width: 835px;
     height: 500px;
     background-size: cover;
