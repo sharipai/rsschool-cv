@@ -1,1 +1,0 @@
-https://sharipai.github.io/rsschool-cv/cv
